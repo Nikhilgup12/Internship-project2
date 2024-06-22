@@ -11,13 +11,33 @@ const index = () => {
         <div className={styles['landing-product-list-container']}>
           <h1 className={styles['landing-product-list-heading']}> New Arrivals </h1>
           <hr className={styles['horizontal-line']}/> 
-          <div className={styles['product-list-container']}>
-            <div className={styles['product-list']}>
+          <ul className={styles['product-list-container']}>
+            <li className={styles['product-list']}>
               <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719056164/Rectangle_1_sijyin.svg" className={styles['product-image']}/> 
               <h1 className={styles['product-heading']}> Dress </h1> 
               <p className={styles['product-price']}> Rs. 35,000.00 </p>
-            </div>
-          </div>
+            </li>
+            <li className={styles['product-list']}>
+              <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719056164/Rectangle_1_sijyin.svg" className={styles['product-image']}/> 
+              <h1 className={styles['product-heading']}> Dress </h1> 
+              <p className={styles['product-price']}> Rs. 35,000.00 </p>
+            </li>
+            <li className={styles['product-list']}>
+              <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719056164/Rectangle_1_sijyin.svg" className={styles['product-image']}/> 
+              <h1 className={styles['product-heading']}> Dress </h1> 
+              <p className={styles['product-price']}> Rs. 35,000.00 </p>
+            </li>
+            <li className={styles['product-list']}>
+              <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719056164/Rectangle_1_sijyin.svg" className={styles['product-image']}/> 
+              <h1 className={styles['product-heading']}> Dress </h1> 
+              <p className={styles['product-price']}> Rs. 35,000.00 </p>
+            </li>
+            <li className={styles['product-list']}>
+              <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719056164/Rectangle_1_sijyin.svg" className={styles['product-image']}/> 
+              <h1 className={styles['product-heading']}> Dress </h1> 
+              <p className={styles['product-price']}> Rs. 35,000.00 </p>
+            </li>
+          </ul>
         </div>
       </div>
 
