@@ -5,7 +5,7 @@ import React from 'react'
 const landing = () => {
   return (
     <>
-    <div className={styles.container}>
+    <div className="">
         <h1> Landing </h1>
     </div>
     </>
