@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from "../styles/Landing.module.css"
-import { FaInstagram } from "react-icons/fa";
+// import Navbar from "../components/Navbar"
+import Fotter from "../components/Fotter"
+// import { FaInstagram } from "react-icons/fa";
 const index = () => {
   return (
+    <>
+    {/* <Navbar />  */}
     <div className={styles["landing-main-container"]}>
       <div className={styles['landing-first-image-container']}>
         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719056168/Rectangle_lqkm6z.svg" className={styles['landing-image']}/> 
@@ -40,6 +44,7 @@ const index = () => {
             </li>
           </ul>
         </div>
+        
       </div>
       <div className={styles['floe-main-container']}>
         <div className={styles['floe-container']}>
@@ -59,7 +64,8 @@ const index = () => {
         </div>
         </div>
       </div>
-      <div className={styles['follow-main-container']}>
+      <Fotter />
+      {/* <div className={styles['follow-main-container']}>
         <div className={styles['follow-icon-container']}>
           <FaInstagram />
           <h1> FOLLOW US ON INSTAGRAM </h1>
@@ -100,8 +106,9 @@ const index = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
+    </>
   )
 }
 

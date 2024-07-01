@@ -2,7 +2,7 @@ import Link from "next/link"
 import styles from "./Navbar.module.css"
 import {GiHamburgerMenu} from 'react-icons/gi'
 const Navbar = () => {
-  return (
+  return ( 
     <>
     <nav className={styles['nav-container']}>
         <div className={styles['nav-content']}> 
