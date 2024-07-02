@@ -10,7 +10,6 @@
 .follow-image-container{
     display: flex;
     align-items: center;
-   
     width: 100%;
     margin-top:10px;
 }
@@ -36,7 +35,6 @@
     align-items: center;
     /* justify-content: center; */
     width: 100%;
-
     margin-top:20px;
 }
 .landing-fotter-shop-container{
@@ -47,6 +45,13 @@
 }
 .fotter-shop-heading{
     padding-bottom:10px;
+    color: #000000;
+    font-weight:500;
+}
+.fotter-list{
+    color: #000000;
+    font-weight:400;
+    font-family: Inter;
 }
 .landing-offer-main-container{
     display: flex;
@@ -64,7 +69,6 @@
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    
     width:100%;
     max-width: 500px;
     padding:10px;
@@ -74,8 +78,13 @@
     background-color: #ffffff;
     padding:10px 40px 10px 40px;
     border-width: 0px;
-    border-radius: 10px;
+    border-radius:5px;
     color:#000000;
+    font-family: Inter;
+    font-weight:500;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
 }
 @media screen and (max-width:767px){
     .follow-image-container{
@@ -138,3 +147,28 @@
     }
 }
  
+.follow-heading{
+    color: #000000;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.fotter-offer-heading{
+    font-family: Inter;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-bottom: 22px;
+}
+.fotter-offer-desc{
+    font-family: Inter;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+.fotter-offer-form-name{
+    font-family: Inter;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+}

@@ -1,0 +1,104 @@
+.collection-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F5F5F3;
+}
+
+.landing-collection-main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    width:100%;
+    padding:20px;
+}
+.collection-container{
+    width: 100%;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection-image-container{
+    width:100%;
+}
+.collection-image{
+    width: 100%;
+    max-width:650px;
+}
+.collection-detail-container{
+    width: 100%;
+    max-width:400px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.collection-heading{
+    color:#000000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-family: inter;
+}
+.collection-para{
+    color:#000000;
+    padding-bottom: 30px;
+    font-family: inter;
+    font-weight:500;
+}
+@media screen and (max-width:767px){
+    .collection-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:992px){
+    .collection-container{
+        padding:0px;
+    }
+}
+
+.collection-unorderList-container{
+    /* background-color: antiquewhite; */
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:20px;
+    /* padding-left: 0px; */
+    list-style: none;
+}
+.collection-list-image-container{
+    /* background-color: aqua; */
+    margin:20px;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding:20px; */
+}
+.collection-list-image{
+    width:100%;
+}
+
+@media screen and (max-width:767px){
+    .collection-list-image-container{
+        margin:10px;
+        /* background-color: aqua; */
+        max-width: 140px;
+    }
+    .collection-unorderList-container{
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        /* padding: 0px;  */
+    }
+}
